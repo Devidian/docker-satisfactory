@@ -2,7 +2,6 @@ version: '3.8'
 
 services:
   satisfactory-ds-docker:
-    build: .
     image: devidian/satisfactory-dedicated:latest
     container_name: satisfactory-ds-docker
     restart: unless-stopped
